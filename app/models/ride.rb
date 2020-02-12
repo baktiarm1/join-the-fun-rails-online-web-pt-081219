@@ -1,4 +1,4 @@
 class Ride < ActiveRecord::Base
   has_many :passengers
-  has_many :ridess
+  has_many :rides
 end
